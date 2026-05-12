@@ -1,7 +1,7 @@
-console.log("keyboardInput.js start init...")
+console.log("keyboardInput.js start init...");
 
-document.addEventListener("keypress", function(keyPressed)) {
+document.addEventListener("keypress", function(keyPressed){ 
   console.log(keyPressed);
-};
+});
 
 console.log("keyboardInput.js initialized!");
