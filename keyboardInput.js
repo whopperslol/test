@@ -1,5 +1,7 @@
-function apple123() {
-  console.log("yay")
-}
+console.log("keyboardInput.js start init...")
 
-apple123();
+document.addEventListener("keypress", function(keyPressed)) {
+  console.log(keyPressed);
+};
+
+console.log("keyboardInput.js initialized!");
